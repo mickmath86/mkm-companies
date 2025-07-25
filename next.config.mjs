@@ -18,7 +18,7 @@ const nextConfig = {
   // reactStrictMode: false,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
     images: {
-    domains: ['deifkwefumgah.cloudfront.net'],
+    domains: ['deifkwefumgah.cloudfront.net', 'cdn.prod.website-files.com'],
     
   },
 }

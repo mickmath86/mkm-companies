@@ -15,21 +15,27 @@ import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
 import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
 import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
-import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+import logoRealityDark from '@/images/clients/reality/logo-dark.svg'
+import logoReality from '@/images/clients/reality/logo-light.svg'
+import logoWCIU from '@/images/clients/wciu/logo-light.svg'
+import logoCrazyLove from '@/images/clients/crazy-love/logo-light.svg'
+import logoLighthouse from '@/images/clients/lighthouse/logo-light.svg'
+import logoCrazyLoveDark from '@/images/clients/crazy-love/logo-dark.svg'
+
+
+
+
 import imageLaptop from '@/images/laptop.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 import { RootLayout } from '@/components/RootLayout'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['Reality', logoReality],
+  ['Crazy Love', logoCrazyLove],
+  ['Lighthouse Bible Church', logoLighthouse],
+  ['WCIU', logoWCIU],
+
 ]
 
 function Clients() {
@@ -204,13 +210,11 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Paul Chan', logo: logoCrazyLoveDark }}
       >
-      Working with Keith Mathias and the team at KAM Coastal was an absolute game-changer for our church... 
-      {/* From securing a larger facility that perfectly fits our growing needs to expertly negotiating the sale of our previous building, 
+Keith and his team have been invaluable to my brother, Francis, and me. It's rare to find true professionals who strike the perfect balance between understanding kingdom values while having the expertise to navigate the complexities of property transactions."  {/* From securing a larger facility that perfectly fits our growing needs to expertly negotiating the sale of our previous building, 
       they handled every detail with professionalism, integrity, and an unwavering commitment to excellence. Their ability to navigate complex negotiations with both 
       firmness and kindness gave us complete confidence every step of the way. It was a such a relief knowing that KAM was handling every detail, every step of the way.  */} <br />
-      ...They have been a God-send! We couldn’t have asked for a better team to guide us through this transition!
       </Testimonial>
 
       <Services />

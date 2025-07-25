@@ -72,11 +72,11 @@ export default async function About() {
         </div>
       </PageIntro>
       <Container className="mt-16">
-        <StatList>
-          <StatListItem value="$300M" label="in total transaction volume across sales and developments" />
-          <StatListItem value="80+" label="Placated clients" />
-          <StatListItem value="50+" label="Invoices billed" />
-        </StatList>
+       <StatList>
+        <StatListItem value="$300M+" label="Transaction volume closed" />
+        <StatListItem value="20+" label="Faith-based and institutional clients served" />
+        <StatListItem value="150+" label="Acres of land repositioned or entitled" />
+      </StatList>
       </Container>
 
       <Culture />

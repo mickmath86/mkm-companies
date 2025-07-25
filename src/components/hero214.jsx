@@ -1,24 +1,30 @@
-"use client";;
+"use client";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import React, { useEffect, useState } from "react";
+
+
+import heroReality from '@/images/projects/heros/reality.jpg';
+import heroWCIU from '@/images/projects/heros/wciu.jpg';
+import heroLighthouse from '@/images/projects/heros/lighthouse.jpg';
 
 import { Button } from "@/components/ui/button";
 
 const Hero214 = () => {
   const images = [
     {
-      src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/lummi/bw12.jpeg?width=9000&height=300",
+      src: heroReality.src,
       alt: "Portrait of Joanna Doe in urban setting",
       name: "Joanna Doe",
     },
     {
-      src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/lummi/bw13.jpeg",
+      src: heroWCIU.src,
       alt: "Portrait of Sarah Chen in studio setting",
       name: "Sarah Chen",
     },
     {
-      src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/lummi/bw14.jpeg",
+      src: heroLighthouse.src,
       alt: "Portrait of Joanna Doe in urban setting",
       name: "Joanna Doe",
     },

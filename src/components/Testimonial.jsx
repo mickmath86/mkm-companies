@@ -25,6 +25,7 @@ export function Testimonial({ children, client, className }) {
                 {children}
               </p>
             </blockquote>
+            <div className="text-2xl">{client.name}</div>
             <figcaption className="mt-10">
               <Image src={client.logo} alt={client.name} unoptimized />
             </figcaption>
