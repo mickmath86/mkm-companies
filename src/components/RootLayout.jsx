@@ -59,16 +59,18 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          <Logomark
+          {/* <Logomark
             className="h-8 sm:hidden"
             invert={invert}
             filled={logoHovered}
-          />
-          <Logo
-            className="hidden h-8 sm:block"
-            invert={invert}
-            filled={logoHovered}
-          />
+          /> */}
+        {/* <Logo
+           className="hidden h-8 sm:block"
+             invert={invert}
+             filled={logoHovered}
+          /> */}
+          
+           <h1 className="text-xl md:text-4xl font-bold pl-0">MKM Real Estate</h1>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>

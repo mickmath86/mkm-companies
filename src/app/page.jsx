@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Hero214 } from '@/components/hero214'
+import { Hero5 } from '@/components/hero5'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
@@ -191,7 +192,8 @@ export default async function Home() {
     <RootLayout>
           <FadeIn>
             <div className="mx-auto flex justify-center">
-              <Hero214 />  
+   
+              <Hero5 />  
             </div>
           </FadeIn>
       
