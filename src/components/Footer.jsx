@@ -27,7 +27,7 @@ const navigation = [
     links: [
       { title: 'About', href: '/about' },
       { title: 'Process', href: '/process' },
-      { title: 'Blog', href: '/blog' },
+      // { title: 'Blog', href: '/blog' },
       { title: 'Contact us', href: '/contact' },
     ],
   },
@@ -122,7 +122,9 @@ export function Footer() {
         </div>
         <div className="mt-24 mb-20 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href="/" aria-label="Home">
-            <Logo className="h-8" fillOnHover />
+            {/* <Logo className="h-8" fillOnHover />
+             */}
+             <h1 className="font-bold">MKM Real Estate</h1>
           </Link>
           <p className="text-sm text-neutral-700">
             © MKM Companies {new Date().getFullYear()}

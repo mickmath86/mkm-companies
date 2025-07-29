@@ -12,6 +12,8 @@ import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
+import imagePlan from '@/images/plan.jpg'
+import imageExecute from '@/images/execute.jpg'
 import { RootLayout } from '@/components/RootLayout'
 
 function Section({ title, image, children }) {
@@ -71,7 +73,7 @@ function Discover() {
 
 function Plan() {
   return (
-    <Section title="Plan" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Plan" image={{ src: imagePlan, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
     Once the opportunity is clear, we move into the planning phase—where strategy takes shape. This is where we combine insight with execution: defining project goals, assembling the right partners, and preparing a roadmap that leads to results. Whether the next step is a sale, a build, or a phased redevelopment, this is where we map out how to get there.
@@ -102,7 +104,7 @@ function Plan() {
 
 function Execute() {
   return (
-    <Section title="Execute" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Execute" image={{ src: imageExecute, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
         Execution is where plans become reality. MKM serves as the central point of coordination—bringing together architects, engineers, legal teams, city agencies, and contractors to ensure your project progresses smoothly and efficiently. Whether we’re managing a ground-up development or marketing a property for sale, our commitment to detail and communication keeps everything on track.

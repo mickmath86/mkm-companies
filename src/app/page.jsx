@@ -27,7 +27,7 @@ import logoCrazyLoveDark from '@/images/clients/crazy-love/logo-dark.svg'
 
 
 
-import imageLaptop from '@/images/laptop.jpg'
+import imageLaptop from '@/images/projects/heros/wciu.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 import { RootLayout } from '@/components/RootLayout'
 

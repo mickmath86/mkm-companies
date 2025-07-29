@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import heroWCIU from "@/images/projects/heros/wciu.jpg"
 
-import { Button } from "@/components/button";
+import { Button } from "@/components/Button";
 import { FadeIn } from "./FadeIn";
 
 const Hero5 = () => {
