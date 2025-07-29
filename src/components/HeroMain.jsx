@@ -51,7 +51,7 @@ export default function HeroMain() {
                     href="/work"
                   
                   >
-                      <Button>Get started</Button> 
+                      <Button>Our Work</Button> 
                   </Link>
                 
                 </div>
