@@ -9,6 +9,7 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
+import  HeroMain  from '@/components/HeroMain'
 import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
 import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
 import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
@@ -162,16 +163,16 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-132 lg:pl-4">
             <ListItem title="Development Advisory">
-           From entitlement to ground-up construction, we guide organizations through the full development lifecycle.
+                  From entitlement to ground-up construction, we guide organizations through the full development lifecycle.
             </ListItem>
             <ListItem title="Portfolio & Property Analysis">
-        Comprehensive review of your holdings to identify opportunities, liabilities, and paths to maximize value.
+                 Comprehensive review of your holdings to identify opportunities, liabilities, and paths to maximize value.
             </ListItem>
             <ListItem title="Brokerage Services">
-            Sales and acquisitions with a specialized focus on mission-based real estate and institutional buyers.
+                  Sales and acquisitions with a specialized focus on mission-based real estate and institutional buyers.
             </ListItem>
             <ListItem title="Property & Project Stewardship">
-Operational oversight and partner coordination to preserve value, minimize risk, and ensure projects align with mission.
+                  Operational oversight and partner coordination to preserve value, minimize risk, and ensure projects align with mission.
             </ListItem>
           </List>
         </div>
@@ -191,10 +192,10 @@ export default async function Home() {
   return (
     <RootLayout>
           <FadeIn>
-            <div className="mx-auto flex justify-center">
+           
    
-              <Hero5 />  
-            </div>
+              <HeroMain />  
+   
           </FadeIn>
       
       
