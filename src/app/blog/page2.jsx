@@ -22,14 +22,14 @@ export default async function Blog() {
 
   return (
     <RootLayout>
-      <PageIntro eyebrow="Blog" title="Blog Coming Soon...">
-        {/* <p>
+      <PageIntro eyebrow="Blog" title="The latest articles and news">
+        <p>
           Stay up-to-date with the latest industry news as our marketing teams
           finds new ways to re-purpose old CSS tricks articles.
-        </p> */}
+        </p>
       </PageIntro>
 
-      {/* <Container className="mt-24 sm:mt-32 lg:mt-40">
+      <Container className="mt-24 sm:mt-32 lg:mt-40">
         <div className="space-y-24 lg:space-y-32">
           {articles.map((article) => (
             <FadeIn key={article.href}>
@@ -81,7 +81,7 @@ export default async function Blog() {
             </FadeIn>
           ))}
         </div>
-      </Container> */}
+      </Container>
 
       <ContactSection />
     </RootLayout>
