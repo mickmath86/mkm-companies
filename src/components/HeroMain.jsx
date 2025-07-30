@@ -44,7 +44,7 @@ export default function HeroMain() {
                Empowering purpose-driven Real Estate
                 </h1>
                 <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-            We help mission-driven organizations unlock the value of their real estate through development, brokerage, and advisory services.
+                We help for-profit and mission-driven organizations identify underperforming real estate and unlock its full potential through strategic evaluation and actionable solutions.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <Link

@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Hero214 } from '@/components/hero214'
-import { Hero5 } from '@/components/hero5'
+
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
@@ -10,60 +9,98 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 import  HeroMain  from '@/components/HeroMain'
-import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
-import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
-import logoUnseal from '@/images/clients/unseal/logo-light.svg'
-import logoRealityDark from '@/images/clients/reality/logo-dark.svg'
+
 import logoReality from '@/images/clients/reality/logo-light.svg'
 import logoWCIU from '@/images/clients/wciu/logo-light.svg'
 import logoCrazyLove from '@/images/clients/crazy-love/logo-light.svg'
 import logoLighthouse from '@/images/clients/lighthouse/logo-light.svg'
 import logoCrazyLoveDark from '@/images/clients/crazy-love/logo-dark.svg'
 
-
-
+import logoEF from '@/images/clients/ef/logo-light.svg'
+import logoFairSky from '@/images/clients/fairsky/logo-light.svg'
+import logoFedex from '@/images/clients/fedex/logo-light.svg'
+import logoFrontierVentures from '@/images/clients/frontier-ventures/logo-light.svg'
+import logoTractorSupply from '@/images/clients/tractor-supply/logo-light.svg'
+import logoWalmart from '@/images/clients/walmart/logo-light.svg'
+import logoWorldImpact from '@/images/clients/world-impact/logo-light.svg'
 
 import imageLaptop from '@/images/projects/heros/wciu.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 import { RootLayout } from '@/components/RootLayout'
 
-const clients = [
+const NPClients = [
   ['Reality', logoReality],
   ['Crazy Love', logoCrazyLove],
   ['Lighthouse Bible Church', logoLighthouse],
   ['WCIU', logoWCIU],
+  ["World Impact", logoWorldImpact], 
+  ["Frontiir Ventures", logoFrontierVentures], 
+  ["Education First", logoEF]
 
+]
+
+const FPClients = [
+  ['Walmart', logoWalmart],
+  ['FedEx', logoFedex],
+  ['Tractor Supply', logoTractorSupply],
+  ['FairSky Park', logoFairSky],
+  
 ]
 
 function Clients() {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
-        <FadeIn className="flex items-center gap-x-8">
-          <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
-          </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
-        </FadeIn>
-        <FadeInStagger faster>
-          <ul
-            role="list"
-            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
-          >
-            {clients.map(([client, logo]) => (
-              <li key={client}>
-                <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
-                </FadeIn>
-              </li>
-            ))}
-          </ul>
-        </FadeInStagger>
+        <div className="flex flex-col gap-24"> 
+          <div>
+          <FadeIn className="flex items-center gap-x-8">
+            <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
+              We’ve worked with some great mission-driven organizations...
+            </h2>
+            <div className="h-px flex-auto bg-neutral-800" />
+          </FadeIn>
+          <FadeInStagger faster>
+            <ul
+              role="list"
+              className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
+            >
+              {NPClients.map(([client, logo]) => (
+                <li key={client}>
+                  <FadeIn>
+                    <Image src={logo} alt={client} unoptimized />
+                  </FadeIn>
+                </li>
+              ))}
+            </ul>
+          </FadeInStagger>
+          </div>
+          <div>
+          <FadeIn className="flex items-center gap-x-8">
+            <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
+              ...As well as some incredible for-profit clients
+            </h2>
+            <div className="h-px flex-auto bg-neutral-800" />
+          </FadeIn>
+          <FadeInStagger faster>
+            <ul
+              role="list"
+              className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4"
+            >
+              {FPClients.map(([client, logo]) => (
+                <li key={client}>
+                  <FadeIn>
+                    <Image src={logo} alt={client} unoptimized />
+                  </FadeIn>
+                </li>
+              ))}
+            </ul>
+          </FadeInStagger>
+
+          </div>
+
+        </div>
+       
+       
       </Container>
     </div>
   )
@@ -203,7 +240,7 @@ export default async function Home() {
          
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-           At MKM Companies, we help churches, schools, and mission-driven organizations unlock the full value of their real estate. From development to disposition, our team delivers solutions that support long-term impact.
+           At KAM Coastal, we help churches, schools, and mission-driven organizations unlock the full value of their real estate. From development to disposition, our team delivers solutions that support long-term impact.
           </p> */}
    
 
@@ -215,9 +252,9 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Paul Chan', logo: logoCrazyLoveDark }}
       >
-Keith and his team have been invaluable to my brother, Francis, and me. It's rare to find true professionals who strike the perfect balance between understanding kingdom values while having the expertise to navigate the complexities of property transactions."  {/* From securing a larger facility that perfectly fits our growing needs to expertly negotiating the sale of our previous building, 
-      they handled every detail with professionalism, integrity, and an unwavering commitment to excellence. Their ability to navigate complex negotiations with both 
-      firmness and kindness gave us complete confidence every step of the way. It was a such a relief knowing that KAM was handling every detail, every step of the way.  */} <br />
+        Keith and his team have been invaluable to my brother, Francis, and me. It's rare to find true professionals who strike the perfect balance between understanding kingdom values while having the expertise to navigate the complexities of property transactions."  {/* From securing a larger facility that perfectly fits our growing needs to expertly negotiating the sale of our previous building, 
+              they handled every detail with professionalism, integrity, and an unwavering commitment to excellence. Their ability to navigate complex negotiations with both 
+              firmness and kindness gave us complete confidence every step of the way. It was a such a relief knowing that KAM was handling every detail, every step of the way.  */} <br />
       </Testimonial>
 
       <Services />

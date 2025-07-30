@@ -4,13 +4,13 @@ import { Toaster } from 'sonner'
 export const metadata = {
   title: {
     template: '%s - MKM',
-    default: 'MKM Real Estate - Empowering Purpose-driven Real Estate',
+    default: 'KAM Coastal - Empowering Purpose-driven Real Estate',
   },
   openGraph: {
-    title: "MKM Real Estate",
+    title: "KAM Coastal",
     description: "Empowering Purpose-driven Real Estate",
     url: "https://mkm-companies.vercel.app/",
-    siteName: "MKM Real Estate",
+    siteName: "KAM Coastal",
     images: [
       {
         url: "https://mkm-companies.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwciu.d773ca94.jpg&w=3840&q=75", // Must be an absolute URL

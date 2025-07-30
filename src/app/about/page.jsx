@@ -28,7 +28,7 @@ function Culture() {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Accountable" invert>
-              You’ll always know where things stand, what’s next, and who’s responsible—because trust is built on accountability.          </GridListItem>
+              You’ll always know where things stand, what’s next, and who’s responsible—because trust is built on accountability.</GridListItem>
           <GridListItem title="Operational Excellence" invert>
           From entitlement through delivery, we bring proven processes and attention to detail that protect your timeline and budget.
           </GridListItem>
@@ -57,11 +57,11 @@ export default async function About() {
     <RootLayout>
       <PageIntro eyebrow="Who We Are" title="Real Estate with Purpose">
         <p>
-         MKM Companies is a mission-driven real estate development and brokerage firm serving churches, schools, and nonprofits across California and beyond.
+         KAM Coastal is a mission-driven real estate development and brokerage firm serving churches, schools, and nonprofits across California and beyond.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            With decades of combined experience in brokerage, development, and construction management, MKM Companies exists to help purpose-driven institutions steward their real estate wisely. Our projects range from affordable housing developments to complex property dispositions—always focused on long-term impact and community benefit.
+            With decades of combined experience in brokerage, development, and construction management, KAM Coastal exists to help purpose-driven institutions steward their real estate wisely. Our projects range from affordable housing developments to complex property dispositions—always focused on long-term impact and community benefit.
           </p>
           {/* <p>
             At Studio, we’re more than just colleagues — we’re a family. This

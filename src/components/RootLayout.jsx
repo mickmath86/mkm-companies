@@ -9,15 +9,17 @@ import {
   useState,
 } from 'react'
 import Link from 'next/link'
+import { FadeIn } from './FadeIn'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion'
-
+import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
 import { Logo, Logomark } from '@/components/Logo'
+import KamLogo from "@/images/logos/kam-logo.svg"
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
 
@@ -59,18 +61,22 @@ function Header({
           onMouseEnter={() => setLogoHovered(true)}
           onMouseLeave={() => setLogoHovered(false)}
         >
-          {/* <Logomark
+         {/* <Logomark
             className="h-8 sm:hidden"
             invert={invert}
             filled={logoHovered}
-          /> */}
-        {/* <Logo
+          />  */}
+       {/* <Logo
            className="hidden h-8 sm:block"
              invert={invert}
              filled={logoHovered}
-          /> */}
+          />  */}
           
-           <h1 className="text-xl md:text-4xl font-bold pl-0">MKM Real Estate</h1>
+          <FadeIn>
+          <Image src={KamLogo} width={150} height={100}/>
+            </FadeIn>
+          
+           {/* <h1 className="text-xl md:text-4xl font-bold pl-0">KAM Coastal</h1> */}
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href="/contact" invert={invert}>

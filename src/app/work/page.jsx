@@ -23,6 +23,11 @@ import logoReality from '@/images/clients/reality/logo-dark.svg'
 import logoWCIU from '@/images/clients/wciu/logo-dark.svg'
 import logoLighthouse from '@/images/clients/lighthouse/logo-dark.svg'
 import logoCrazyLove from '@/images/clients/crazy-love/logo-dark.svg'
+import logoWalmart from '@/images/clients/walmart/logo-dark.svg'
+import logoEF from '@/images/clients/ef/logo-dark.svg'
+import logoFedex from '@/images/clients/fedex/logo-dark.svg'
+import logoTractorSupply from '@/images/clients/tractor-supply/logo-dark.svg'
+import logoFrontierVentures from '@/images/clients/frontier-ventures/logo-dark.svg'
 
 
 import { formatDate } from '@/lib/formatDate'
@@ -104,7 +109,11 @@ function CaseStudies({ caseStudies }) {
 }
 
 const clients = [
+  ["Walmart", logoWalmart], 
+  ["FedEx", logoFedex], 
   ['Reality', logoReality],
+  ['Frontier Ventures', logoFrontierVentures],
+  ["Education First", logoEF], 
   ["William Carey International University", logoWCIU], 
   ["Lighthouse Church", logoLighthouse], 
   ["Crazy Love Ministries", logoCrazyLove], 

@@ -124,10 +124,10 @@ export function Footer() {
           <Link href="/" aria-label="Home">
             {/* <Logo className="h-8" fillOnHover />
              */}
-             <h1 className="font-bold">MKM Real Estate</h1>
+             <h1 className="font-bold">KAM Coastal</h1>
           </Link>
           <p className="text-sm text-neutral-700">
-            © MKM Companies {new Date().getFullYear()}
+            © KAM Coastal {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

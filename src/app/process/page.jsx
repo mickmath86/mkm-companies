@@ -154,7 +154,7 @@ function Values() {
     title="Guided by Clarity, Built on Trust"
   >
     <p>
-      At MKM Companies, our values are more than words — they shape how we show up every day. From entitlement through execution, our team operates with discipline, transparency, and a commitment to creating long-term value for every client we serve.
+      At KAM Coastal, our values are more than words — they shape how we show up every day. From entitlement through execution, our team operates with discipline, transparency, and a commitment to creating long-term value for every client we serve.
     </p>
   </SectionIntro>
 
@@ -196,7 +196,7 @@ export default function Process() {
     <RootLayout>
       <PageIntro eyebrow="Our process" title=" From Concept to Completion">
         <p>
-         Every project begins with a conversation. At MKM Companies, our process is designed to move projects forward with clarity, speed, and impact. Whether you’re considering development, disposition, or something in between—we help you define a path and execute with precision.
+         Every project begins with a conversation. At KAM Coastal, our process is designed to move projects forward with clarity, speed, and impact. Whether you’re considering development, disposition, or something in between—we help you define a path and execute with precision.
         </p>
       </PageIntro>
 
